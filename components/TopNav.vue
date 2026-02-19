@@ -12,7 +12,7 @@
                 <li><NuxtLink to="/chefpearl">About Me</NuxtLink></li>
             </ul>
             <NuxtLink>
-                <BaseButton label="Place your Order"/>
+                <BaseButton label="Place your Order" variant="yellow"/>
             </NuxtLink>
         </nav>
     </div>
