@@ -4,6 +4,15 @@
         <div class="felx-col justify-center content-center px-auto">
             <h1 class="heading text-8xl tracking-wide font-stretch-condensed">Chef Pearl's Bakes and more..</h1>
             <p class="subheading uppercase font-bold text-3xl text-indigo-700 mt-4">Cakes, Pastries, Bisquits & Bread</p>
+            <div class="mt-9 flex gap-6">
+              <NuxtLink>
+                <BaseButton label="Explore my menus"/>
+              </NuxtLink>
+
+              <NuxtLink>
+                <BaseButton label="View my Catalog" variant="white"/>
+              </NuxtLink>
+            </div>
         </div>
 
         <div class=" w-[80%] h-[80%] self-center">
