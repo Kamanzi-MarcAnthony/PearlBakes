@@ -1,5 +1,8 @@
 <template>
     <Hero/>
+    <div>
+        
+    </div>
 </template>
 
 <script setup>

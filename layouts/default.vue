@@ -1,6 +1,5 @@
 <template>
     <TopNav/>
-    
     <div class="container">
         <slot/>
     </div>
