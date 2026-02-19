@@ -11,6 +11,9 @@
                 <li><NuxtLink to="/breads">Breads</NuxtLink></li>
                 <li><NuxtLink to="/chefpearl">About Me</NuxtLink></li>
             </ul>
+            <NuxtLink>
+                <BaseButton label="Place your Order"/>
+            </NuxtLink>
         </nav>
     </div>
 </template>

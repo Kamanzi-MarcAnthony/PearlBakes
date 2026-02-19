@@ -6,7 +6,7 @@
             <p class="subheading uppercase font-bold text-3xl text-indigo-700 mt-4">Cakes, Pastries, Bisquits & Bread</p>
         </div>
 
-        <div class=" w-1/2 h-[80%] self-center">
+        <div class=" w-[80%] h-[80%] self-center">
             <div class="w-full h-full bg-cover bg-center masked-img bg-[url(/assets/images/chef.png)] transition-all duration-700 ease-out hover:scale-110 hover:bg-top"></div>
         </div>
     </div>
