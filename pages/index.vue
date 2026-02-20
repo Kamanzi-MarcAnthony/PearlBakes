@@ -24,6 +24,8 @@
                 </TransitionGroup>
             </div>
         </div>
+
+        <Breakfast/>
     </div>
     
 </template>
