@@ -11,11 +11,12 @@
             />
         </div>
 
-        <div class="flex flex-col p-2 md:flex-row  h-1/2 w-full place-content-center items-center justify-center gap-4 mt-8">
+        <div class="flex flex-col p-2 md:flex-row  h-1/2 w-full place-content-center items-center justify-center gap-10 md:gap-20 mt-8">
             <LunchMenuItem 
                 v-for="(item, index) in lunches" 
                 :key="item.name" 
-                :name="item.name" 
+                :name="item.name"
+                :description="item.description" 
                 :image="item.image" 
                 :style="{ animationDelay: `${index * 120}ms` }" 
             />
@@ -29,7 +30,22 @@ import { ref, onMounted } from 'vue'
 const   showLunches = ref(false)
 
 const lunches = [
-  { name: "Oven Baked Whole Fish", image: "/assets/images/custom.svg"}
+    {name: "Oven Baked Whole Fish", 
+    description:"Juicy whole fish oven-baked with herbs and mild spices — fresh & flavorful", 
+    image: "/assets/images/custom.svg"},
+
+    {name: "Slow-Braised Goat Stew",
+    description:"Rich and hearty stew slow-braised with aromatic spices and tender goat meat",
+    image: "/assets/images/custom.svg"},
+
+    { name: "Creamy Groundnut Chicken",
+    description:"Comforting peanut sauce with tender chicken",
+    image: "/assets/images/custom.svg"},
+
+    { name: "Slow-Braised Goat Stew",
+    description:"Rich and hearty stew slow-braised with aromatic spices and tender goat meat",
+    image: "/assets/images/custom.svg"}
+    
 ]
 
 
