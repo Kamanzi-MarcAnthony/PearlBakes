@@ -9,7 +9,7 @@
         <div class="md:w-1/2 pb-16  bg-right  bg-[url(/assets/images/Union2.svg)] bg-no-repeat bg-cover flex items-center justify-center">
             <div class="flex-col justify-center content-center text-center md:text-left max-w-xl ml-2">
                 <div class=" md:hidden sm:block w-[350px] h-[380px] bg-[url(/assets/images/breakfast.svg)] animate-float bg-cover bg-contain bg-no-repeat bg-center justify-self-center mb-2"></div>
-                <h1 class="heading text-4xl sm:text-5xl md:text-5xl lg:text-5xl tracking-wide leading-tight">My Hot Breakfast Combos Made Fresh, Daily</h1>
+                <h1 class="heading text-white text-4xl sm:text-5xl md:text-5xl lg:text-5xl tracking-wide leading-tight">My Hot Breakfast Combos Made Fresh, Daily</h1>
                 <p class="subheading uppercase font-bold text-lg sm:text-xl md:text-3xl text-indigo-700 mt-4">Freshly baked breakfast & coffee-ready combos</p>
             <!-- buttons -->
             <div class="mt-8 sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start">
