@@ -12,27 +12,32 @@
         </div>
 
         <div class="flex flex-col p-2 md:flex-row  h-1/2 w-full place-content-center items-center justify-center gap-4 mt-8">
-            <LunchMenuItem/>
+            <LunchMenuItem 
+                v-for="(item, index) in lunches" 
+                :key="item.name" 
+                :name="item.name" 
+                :image="item.image" 
+                :style="{ animationDelay: `${index * 120}ms` }" 
+            />
         </div>
-
-
     </div>
 </template>
 
-<script>
+<script setup>
 
-export default{
-    props: {
-    name: {
-      type: String,
-      default: 'Favourite Item'
-    },
-    image: {
-      type: String,
-      required: true
-    }
-  }
-}
+import { ref, onMounted } from 'vue'
+const   showLunches = ref(false)
+
+const lunches = [
+  { name: "Oven Baked Whole Fish", image: "/assets/images/custom.svg"}
+]
+
+
+onMounted(() => {
+  requestAnimationFrame(() => {
+    showLunches.value = true
+  })
+})
 
 </script>
 
