@@ -26,6 +26,8 @@
         </div>
 
         <Breakfast/>
+        <Lunch
+        />
     </div>
     
 </template>
